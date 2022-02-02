@@ -1,0 +1,50 @@
+@import "mixins";
+@import "variable";
+@import 'fonts';
+@import 'generals';
+
+@import "blocks/blocks";
+
+
+
+
+.form {
+    width: 730px;
+    margin: 0 auto;
+}
+
+.plan__toggler {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888F;
+}
+
+.plan {
+    display: flex;
+}
+
+.plan__styled-radio {
+    display: block;
+    width: 228px;
+    height: 250px;
+    padding: 32px 28px 84px;
+    margin-right: 23px;
+    background-color: #F4F1EB;
+    border-radius: 8px;
+}
+
+/* .plan__styled-radio:last-child {
+    margin-right: 0;
+} */
+
+.plan__styled-radio--last {
+    margin-right: 0;
+}
+
+.plan__input:checked + .plan__styled-radio {
+    background-color: #0E8784;
+}

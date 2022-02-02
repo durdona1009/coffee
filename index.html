@@ -5,24 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="header__container container">
             <a class="logo" href="#">
                 <img class="logo__img" src="img/coffee-logo.svg" alt="coffeeroastrs site logo with coffee beans" width="236" height="26">
             </a>
 
-            <nav class="navigations">
-                <ul class="navigations__list">
-                    <li class="navigations__item">
-                         <a class="navigations__link" href="#">HOME</a>
+            <nav class="header__nav nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                         <a class="nav__link" href="#">HOME</a>
                     </li>
-                    <li class="navigations__item">
-                        <a class="navigations__link"  href="#">ABOUT US</a>
+                    <li class="nav__item">
+                        <a class="nav__link"  href="#">ABOUT US</a>
                     </li>
-                    <li class="navigations__item">
-                        <a class="navigations__link"  href="#">Create your plan</a>
+                    <li class="nav__item">
+                        <a class="nav__link"  href="#">Create your plan</a>
                     </li>
                 </ul>
             </nav>
@@ -43,26 +44,26 @@
             </div>
         </div>
 
-        <section class="collections__title">
+        <section class="collections">
             <div class="container">
                 <h2 class="collections__title">our collection</h2>
                 <ul class="collections__list">
-                    <li class="collecton">
+                    <li class="collection">
                         <img class="collection__img collection__img--gran" src="img/gran-espresso.png" alt="gran espresso coffee" width="255" height="193">
                         <h3 class="collection__title">Gran Espresso</h3>
                         <p class="collection__description">Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
                     </li>
-                    <li class="collecton">
+                    <li class="collection">
                         <img class="collection__img collection__img--planalto" src="img/planalto.png" alt="planalto coffee" width="256" height="193">
                         <h3 class="collection__title">Planalto</h3>
                         <p class="collection__description">Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</p>
                     </li>
-                    <li class="collecton">
+                    <li class="collection">
                         <img class="collection__img collection__img--piccollo" src="img/piccollo.png" alt="piccollo coffee" width="256" height="193">
                         <h3 class="collection__title">Piccollo</h3>
                         <p class="collection__description">Mild and smooth blend featuring notes of toasted almond and dried cherry.</p>
                     </li>
-                    <li class="collecton">
+                    <li class="collection">
                         <img class="collection__img collection__img--danche" src="img/danche.png" alt="danche coffee" width="235" height="177">
                         <h3 class="collection__title">Danche</h3>
                         <p class="collection__description">Ethiopian hand-harvested blend densely packed with vibrant fruit notes.</p>
@@ -98,23 +99,24 @@
         </section>
 
         <section class="orders">
-            <h2 class="orders__title">How it works</h2>
-            <ol class="orders__list">
-                <li class="order order--first ">
-                    <h3 class="order__title">Pick your coffee</h3>
-                    <p class="order__description">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
-                </li>
-                <li class="order order--second ">
-                    <h3 class="order__title">Choose the frequency</h3>
-                    <p class="order__description">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
-                </li>
-                <li class="order order--third ">
-                    <h3 class="order__title">Receive and enjoy!</h3>
-                    <p class="order__description">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
-                </li>
-            </ol>
-
-            <a class="plan-link plan-link--green" href="#">Create your plan</a>
+            <div class="container orders__container">
+                <h2 class="orders__title">How it works</h2>
+                <ol class="orders__list">
+                    <li class="order order--first ">
+                        <h3 class="order__title">Pick your coffee</h3>
+                        <p class="order__description">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+                    </li>
+                    <li class="order order--second ">
+                        <h3 class="order__title">Choose the frequency</h3>
+                        <p class="order__description">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
+                    </li>
+                    <li class="order order--third ">
+                        <h3 class="order__title">Receive and enjoy!</h3>
+                        <p class="order__description">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
+                    </li>
+                </ol>
+                <a class="plan-link plan-link--green" href="#">Create your plan</a>
+            </div>
         </section>
     </main>
 
@@ -124,16 +126,16 @@
                 <img class="logo__img" src="img/coffee-logo.svg" alt="coffeeroasters logo with coffee beans" width="236" height="26">
             </a>
 
-            <nav class="navigations navigation--footer">
-                <ul class="navigations__list navigations__list--footer">
-                    <li class="navigation navigation--footer">
-                        <a href="#">HOME</a>
+            <nav class="nav nav--footer">
+                <ul class="nav__list nav__list--footer">
+                    <li class="nav__item navigation--footer">
+                        <a class="nav__link" href="#">HOME</a>
                     </li>
-                    <li class="navigation navigation--footer">
-                        <a href="#">ABOUT US</a>
+                    <li class="nav__item nav--footer">
+                        <a class="nav__link" href="#">ABOUT US</a>
                     </li>
-                    <li class="navigation navigation--footer">
-                        <a class="plan-link" href="#">Create your plan</a>
+                    <li class="nav__item nav--footer">
+                        <a class="nav__link" href="#">Create your plan</a>
                     </li>
                 </ul>
             </nav>

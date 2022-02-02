@@ -1,0 +1,77 @@
+.orders__container {
+    max-width: 1045px;
+    padding: 100px 0 200px;
+    position: relative;
+
+    &::before {
+        width: 760px;
+        border: 2px solid #FDD6BA;
+        position: absolute;
+        top: 210px;
+        left: 16px;
+        right: 0;
+        bottom: 0;
+        content: '';
+    }
+
+    
+}
+
+.orders__title {
+    margin: 0;
+    margin-bottom: 80px;
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.orders__list {
+    @include reset-list;
+    display: flex;
+    margin-top: 67px;
+    // text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.order {
+    max-width: 285px;
+    margin-top: 82px;
+    margin-right: 95px;
+    margin-bottom: 64px;
+    padding-top: 110px;
+    position: relative;
+
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &::before {
+        // background: url("../img/circle-icon.svg") no-repeat;
+        display: block;
+        width: 31px;
+        height: 31px;
+        border-radius: 50%;
+        background-color: #FEFCF7;
+        border: 2px solid #0E8784;
+        position: absolute;
+        top: -100px;
+        // z-index: -1;
+        content: '';
+
+    }
+}
+
+.order__title {
+    margin: 0;
+    margin-bottom: 42px;
+    font-family: Fraunces 9pt;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+

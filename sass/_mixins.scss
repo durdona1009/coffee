@@ -1,0 +1,46 @@
+@mixin reset-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@mixin reset-link {
+    display: block;
+    text-decoration: none;
+}
+
+@mixin list-bg-img {
+    width: 71px;
+    height: 72px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 72px;
+    bottom: 56px;
+    right: 143px;
+    left: 136px;
+    content: '';
+}
+
+@mixin section-bg {
+    display: block;
+    width: 100%;
+    background-color: #2C343E;
+    border-radius: 10px;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: '';
+}
+
+@mixin line-bg {
+    
+} line-bg {
+    background-image: url("../img/line-icon.svg");
+    width: 760px;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: '';
+}

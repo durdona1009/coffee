@@ -1,0 +1,16 @@
+.socials {
+    @include reset-list;
+    display: flex;
+}
+
+.social {
+    margin-right: 24px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.social__img {
+    display: block;
+}

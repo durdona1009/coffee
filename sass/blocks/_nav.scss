@@ -1,0 +1,30 @@
+.nav {
+    flex-grow: 1;
+    // width: 283px;
+    // justify-content: flex-end;
+}
+
+.nav__list {
+    @include reset-list;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav__item {
+    margin-right: 33px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__link {
+    @include reset-link;
+    display: block;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}

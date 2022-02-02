@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,kBAAkB,CAAC;EACf,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;CACjC;;ACJD,AAAA,IAAI,CAAC;EACD,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "../sass/blocks/blocks.scss",
+        "../sass/blocks/_header.scss",
+        "../sass/blocks/_nav.scss"
+    ],
+    "names": [],
+    "file": "blocks.css"
+}
