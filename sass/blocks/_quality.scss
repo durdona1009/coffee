@@ -1,0 +1,43 @@
+.quality__container {
+    position: relative;
+    padding-bottom: 168px;
+
+    &::before {
+        @include section-bg;
+        height: 474px;
+        
+    }
+
+}
+
+.quality__content {
+    width: 540px;
+    padding: 100px 0 176px 85px;
+    position: relative;
+
+    &::before {
+        background-image: url("../img/quality-bg.jpg");
+        border-radius: 8px;
+        display: block;
+        width: 445px;
+        height: 474px;
+        position: absolute;
+        left: 665px;
+        top: -88px;
+        content: '';
+    }
+}
+
+.quality__title {
+    margin: 0;
+    margin-bottom: 32px;
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: $text-color;
+}
+
+.quality__description {
+    color: rgba(254, 252, 247, 0.8);
+}

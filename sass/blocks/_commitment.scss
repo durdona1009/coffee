@@ -1,0 +1,36 @@
+.commitment {
+    position: relative;
+    padding-bottom: 244px;
+}
+
+.commitment__container {
+    width: 1110px;
+
+
+    &::before {
+        background: url("../img/commitment-bg.jpg") no-repeat;
+        width: 445px;
+        height: 520px;
+        position: absolute;
+        content: '';
+    }
+}
+
+.commitment__content {
+    width: 540px;
+    margin-left: auto;
+    padding: 90px 0;
+}
+
+.commitment__title {
+    margin: 0;
+    margin-bottom: 32px;
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.commitment__description {
+    color: rgba(51, 61, 75, 0.8);
+}

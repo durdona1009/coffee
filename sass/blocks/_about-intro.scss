@@ -1,0 +1,31 @@
+.about-intro__container {
+    position: relative;
+    padding-bottom: 168px;
+    &::before {
+        background-image: url("../img/about-bg.jpg");
+        width: 1280px;
+        height: 450px;
+        position: absolute;
+        z-index: -1;
+        content: '';
+    }
+}
+
+.about-intro__content {
+    max-width: 445px;
+    padding: 137px 0 137px 85px;
+}
+
+.about-intro__title {
+    margin: 0;
+    margin-bottom: 24px;
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: $text-color;
+}
+
+.about-intro__description {
+    color: $text-color;
+}

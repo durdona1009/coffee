@@ -1,0 +1,42 @@
+.headquarters__container {
+    width: 1045px;
+    padding-bottom: 168px;
+}
+
+.headquarters__title {
+    margin-bottom: 73px;
+    font-family: Fraunces 9pt;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.headquarters__list {
+    @include reset-list;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.headquarter {
+    width: 285px;
+    padding-top: 95px;
+    margin-right: 95px;
+    position: relative;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.headquarter--uk::before {
+    background-image: url("../img/uk-icon.svg");
+    display: block;
+    width: 41;
+    height: 49px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: '';
+}
