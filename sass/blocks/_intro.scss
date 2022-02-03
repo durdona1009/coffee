@@ -4,6 +4,7 @@
 
 .intro__container {
     // padding: 200px, 0;
+    padding-bottom: 135px;
 
     &::before {
         background: url("../../img/intro-bg.jpg") no-repeat center center;
@@ -25,6 +26,7 @@
 .intro__title {
     font-family: 'Fraunces';
     // font-style: normal;
+    width: 493px;
     font-weight: 900;
     font-size: 72px;
     line-height: 72px;

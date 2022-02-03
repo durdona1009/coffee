@@ -1,12 +1,19 @@
 .collections {
-    padding: 135px 0 200px;
+    padding: 135px 0 100px;
+    
     position: relative;
+}
+
+.collections__container {
+    width: 1111px;
+    margin: 0 auto;
 }
 
 .collections__title {
     position: absolute;
     top: 10px;
     margin: 0;
+    // padding-top: 135px;
     width: 1072px;
     z-index: -1;
     font-family: "Fraunces";

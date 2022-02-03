@@ -13,4 +13,9 @@
 
 .social__img {
     display: block;
+
+    &:hover {
+        background-color: #FDD6BA;
+    }
 }
+

@@ -87,6 +87,10 @@ p {
   display: block;
 }
 
+.logo__img {
+  display: block;
+}
+
 .nav {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -125,8 +129,16 @@ p {
   color: #83888F;
 }
 
+.nav__link:hover {
+  color: #333D4B;
+}
+
 .intro {
   position: relative;
+}
+
+.intro__container {
+  padding-bottom: 135px;
 }
 
 .intro__container::before {
@@ -146,6 +158,7 @@ p {
 
 .intro__title {
   font-family: 'Fraunces';
+  width: 493px;
   font-weight: 900;
   font-size: 72px;
   line-height: 72px;
@@ -181,8 +194,13 @@ p {
 }
 
 .collections {
-  padding: 135px 0 200px;
+  padding: 135px 0 100px;
   position: relative;
+}
+
+.collections__container {
+  width: 1111px;
+  margin: 0 auto;
 }
 
 .collections__title {
@@ -364,7 +382,7 @@ p {
 
 .orders__container::before {
   width: 760px;
-  border: 2px solid #FDD6BA;
+  border-top: 2px solid #FDD6BA;
   position: absolute;
   top: 210px;
   left: 16px;
@@ -426,7 +444,7 @@ p {
 .order__title {
   margin: 0;
   margin-bottom: 42px;
-  font-family: Fraunces 9pt;
+  font-family: "Fraunces";
   font-weight: 900;
   font-size: 32px;
   line-height: 36px;
@@ -453,6 +471,10 @@ p {
   margin-right: 369px;
 }
 
+.nav__link--footer:hover {
+  color: #FEFCF7;
+}
+
 .socials {
   margin: 0;
   padding: 0;
@@ -472,6 +494,10 @@ p {
 
 .social__img {
   display: block;
+}
+
+.social__img:hover {
+  background-color: #FDD6BA;
 }
 
 .about-intro__container {
@@ -574,12 +600,13 @@ p {
   width: 445px;
   height: 474px;
   position: absolute;
-  left: 665px;
+  left: 750px;
   top: -88px;
   content: '';
 }
 
 .quality__title {
+  width: 571px;
   margin: 0;
   margin-bottom: 32px;
   font-family: "Fraunces";
@@ -600,7 +627,7 @@ p {
 
 .headquarters__title {
   margin-bottom: 73px;
-  font-family: Fraunces 9pt;
+  font-family: "Fraunces";
   font-weight: 900;
   font-size: 24px;
   line-height: 32px;
@@ -635,12 +662,53 @@ p {
 .headquarter--uk::before {
   background-image: url("../img/uk-icon.svg");
   display: block;
+  background-repeat: no-repeat;
   width: 41;
   height: 49px;
   position: absolute;
   top: 0;
-  right: 0;
+  bottom: 46px;
+  left: 0;
+  right: 100px;
   content: '';
+}
+
+.headquarter--canada {
+  background-image: url("../img/canada-icon.svg");
+  display: block;
+  background-repeat: no-repeat;
+  width: 41;
+  height: 49px;
+  top: 0;
+  bottom: 46px;
+  left: 0;
+  right: 100px;
+  content: '';
+}
+
+.headquarter--australia {
+  background-image: url("../img/australia-icon.svg");
+  display: block;
+  background-repeat: no-repeat;
+  width: 41;
+  height: 49px;
+  top: 0;
+  bottom: 46px;
+  left: 0;
+  right: 100px;
+  content: '';
+}
+
+.headquarter__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: "Fraunces";
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.headquarter__address {
+  font-style: normal;
 }
 
 .form {

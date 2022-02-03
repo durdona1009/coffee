@@ -5,7 +5,7 @@
 
 .headquarters__title {
     margin-bottom: 73px;
-    font-family: Fraunces 9pt;
+    font-family: "Fraunces";
     font-weight: 900;
     font-size: 24px;
     line-height: 32px;
@@ -33,10 +33,54 @@
 .headquarter--uk::before {
     background-image: url("../img/uk-icon.svg");
     display: block;
+    background-repeat: no-repeat;
     width: 41;
     height: 49px;
     position: absolute;
     top: 0;
-    right: 0;
+    bottom: 46px;
+    left: 0;
+    right: 100px;
     content: '';
+    // @include list-bg-img;
+}
+
+.headquarter--canada {
+    background-image: url("../img/canada-icon.svg");
+    display: block;
+    background-repeat: no-repeat;
+    width: 41;
+    height: 49px;
+    // position: absolute;
+    top: 0;
+    bottom: 46px;
+    left: 0;
+    right: 100px;
+    content: '';
+}
+
+.headquarter--australia {
+    background-image: url("../img/australia-icon.svg");
+    display: block;
+    background-repeat: no-repeat;
+    width: 41;
+    height: 49px;
+    // position: absolute;
+    top: 0;
+    bottom: 46px;
+    left: 0;
+    right: 100px;
+    content: '';
+}
+
+.headquarter__title {
+    margin: 0;
+    margin-bottom: 24px;
+    font-family: "Fraunces";
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.headquarter__address {
+    font-style: normal;
 }

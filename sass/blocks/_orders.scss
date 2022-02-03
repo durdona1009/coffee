@@ -5,7 +5,7 @@
 
     &::before {
         width: 760px;
-        border: 2px solid #FDD6BA;
+        border-top: 2px solid #FDD6BA;
         position: absolute;
         top: 210px;
         left: 16px;
@@ -68,7 +68,7 @@
 .order__title {
     margin: 0;
     margin-bottom: 42px;
-    font-family: Fraunces 9pt;
+    font-family: "Fraunces";
     font-weight: 900;
     font-size: 32px;
     line-height: 36px;
